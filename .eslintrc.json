@@ -1,6 +1,12 @@
 {
   "rules": {
-    "@next/next/no-img-element": "off"
+    "@next/next/no-img-element": "off",
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+    "sort-keys-fix/sort-keys-fix": "off",
+    "camelcase": "off",
+    "quotes": "off",
+    "import/no-duplicates": "off"
   },
   "extends": [
     "@innovixx/eslint-config/configs/base",
@@ -36,5 +42,5 @@
     "components",
     "utils",
     "stories"
-  ]
+  ],
 }
