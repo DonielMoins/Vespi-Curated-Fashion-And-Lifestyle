@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+/* * {
   outline: 0.0625rem solid red;
-}
+} */
 
 /* .splide__pagination--ltr {
   transform: translateY(-2000%);
@@ -47,8 +47,8 @@
   }
 
   .radio-button-indicator.selected {
- @apply bg-whiteChocolate;
-}
+    @apply bg-whiteChocolate;
+  }
 
   .radio-group-indicator[data-state="checked"]::after {
     display: block;
@@ -60,7 +60,7 @@
 
   .size-label {
     position: absolute;
-    top:5%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, 45%)
   }
