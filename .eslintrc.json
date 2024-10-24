@@ -31,6 +31,10 @@
     ".storybook",
     "tailwind.config.ts",
     "tests-examples",
-    ".next"
+    ".next",
+    "app",
+    "components",
+    "utils",
+    "stories"
   ]
 }
